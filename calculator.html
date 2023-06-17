@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="sytle.css">
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 style="color: white; font-size: 35px; letter-spacing: 2px;">CALCULATOR</h1>
+        </div>
+        <div class="area">
+            <form name="form">
+                <input type="text" name="cal" id="v-area"><br><br>
+
+                <input type="button" value=" 7 " onclick="form.cal.value += '7' ">
+                <input type="button" value=" 8 " onclick="form.cal.value += '8' ">
+                <input type="button" value=" 9 " onclick="form.cal.value += '9' ">
+                <input type="button" value=" / " onclick="form.cal.value += '/' "><br>
+                <input type="button" value=" 4 " onclick="form.cal.value += '4' ">
+                <input type="button" value=" 5 " onclick="form.cal.value += '5' ">
+                <input type="button" value=" 6 " onclick="form.cal.value += '6' ">
+                <input type="button" value=" * " onclick="form.cal.value += '*' "><br>
+                <input type="button" value=" 1 " onclick="form.cal.value += '1' ">
+                <input type="button" value=" 2 " onclick="form.cal.value += '2' ">
+                <input type="button" value=" 3 " onclick="form.cal.value += '3' ">
+                <input type="button" value=" - " onclick="form.cal.value += '-' "><br>
+                <input type="button" value=" 0 " onclick="form.cal.value += '0' ">
+                <input type="button" value=" . " onclick="form.cal.value += '.' ">
+                <input type="button" value=" % " onclick="form.cal.value += '%' ">
+                <input type="button" value=" + " onclick="form.cal.value += '+' "><br>
+                <input type="button" value=" = " id="eql" onclick="form.cal.value = eval(form.cal.value)">
+                <input type="button" value=" C " id="clr" onclick="form.cal.value = '' ">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

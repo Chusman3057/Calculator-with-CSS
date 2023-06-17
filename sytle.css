@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    max-width: 315px;
+    text-align: center;
+    align-items: center;
+    background: black;
+    margin: 50px 450px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#v-area {
+    height: 55px;
+    width: 282px;
+    padding: 3px;
+}
+
+input {
+    height: 70px;
+    width: 68px;
+    font-size: 30px;
+    margin: 3px 0;
+    border: none;
+    outline: none;
+}
+
+#eql {
+    height: 65px;
+    width: 142px;
+    padding: 0px;
+}
+
+#clr {
+    height: 65px;
+    width: 142px;
+    padding: 0px;
+}
